@@ -1,0 +1,13 @@
+*{margin:0px;
+  padding:0px;
+  font-family:Micsoft YaHei;
+}
+.title{width:200px;
+	   font-size:32px;
+	   display:block;
+	   margin:0px auto;
+}
+.knowledge{margin-left:100px;
+	       margin-top:10px;
+}
+#a_link a:link{color:green;}

@@ -1,0 +1,74 @@
+*{margin:0px;
+  padding:0px;
+  font-family:"Microsoft YaHei";
+}
+@font-face {font-family: 'iconfont';
+    src: url('../lesson8font/iconfont.eot'); /* IE9*/
+    src: url('../lesson8font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../lesson8font/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../lesson8font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../lesson8font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+	position:absolute;
+	left:120px;
+	top:10px;
+	color:red;
+}
+body ul{list-style:none;}
+body a{text-decoration:none;}
+#vip{width:300px;
+	 height:auto;
+	 margin:10px auto;
+	 background:white;
+}
+#vip h4{height:44px;
+	    border-bottom:2px solid #cc6699;
+		line-height:44px;
+		text-align:center;
+}
+#vip ul li{position:relative;
+	       height:90px;
+	       border-bottom:1px dotted #ccc;
+}
+#vip ul li img{position:absolute;
+	           top:10px;
+}
+#vip ul li .content{position:absolute;
+	                left:140px;
+					top:20px;
+					font-size:10px;
+}
+#vip ul li .content a:link,a:visited{color:#ccc;}
+#vip ul li .content a:hover,a:active{color:red;}
+#vip ul li .money{position:absolute;
+	              left:140px;
+		    	  top:50px;
+				  font-size:25px;
+                  color:#ff3399;
+}
+#vip ul li .money span{font-size:10px;
+	                   color:#ccc;
+}
+#tianmao{width:910px;
+	     height:auto;
+		 margin:30px auto;
+}
+/*#tianmao table{border-collapse:collapse;
+	           border-color:#f5f5f5;
+}*/
+/*#tianmao table{//border-collapse:collapse;
+	           background:#f5f5f5;
+}*/
+//#tianmao table tr{border:1px solid #f5f5f5;}
+#tianmao table{border-collapse:collapse;
+	           background:white;
+}
+#tianmao table th{position:relative;
+	              border:1px solid #f5f5f5;
+}

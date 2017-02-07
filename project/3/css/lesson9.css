@@ -1,0 +1,91 @@
+*{margin:0px;
+  padding:0px;
+  font-family:"Microsoft YaHei";
+}
+#content{ width:700px;
+	     height:500px;
+		 margin:50px auto;
+}
+#content form{height:400px;
+}
+#content form .div1{position:relative;
+	                margin:20px;
+	                height:44px;
+}
+#content form .div2{position:relative;
+	                width:700px;
+					height:44px;
+}
+#content form .div1 .div2 input{position:absolute;
+	                            width:240px;
+	                            height:40px;
+								padding-right:30px;
+								left:150px;
+}
+#content form .div1 .div2 .number{position:absolute;
+	                              width:100px;
+	                              height:40px;
+								  left:150px;
+}
+#content form .div1 .div2 label{position:absolute;
+	                            right:560px;
+								height:44px;
+								line-height:44px;
+								color:#999999;
+}
+#content form .div1 .div2 label b{position:absolute;
+	                              top:3px;
+								  left:-10px;
+								  color:red;
+}
+#content form .div1 .div2 .user{position:absolute;
+	                            left:400px;
+								top:15px;
+	                        	padding:20px;
+								background:url("../images/lesson9/one4.jpg") no-repeat;
+}
+#content form .div1 .div2 .password{position:absolute;
+	                            	left:400px;
+									top:15px;
+	                        		padding:20px;
+									background:url("../images/lesson9/one5.jpg") no-repeat;
+}
+#content form .div1 .div2 .phone{position:absolute;
+	                             left:400px;
+								 top:15px;
+	                        	 padding:20px;
+								 background:url("../images/lesson9/one6.jpg") no-repeat;
+}
+#content form .div1 .div2 span{position:absolute;
+	                           left:440px;
+							   top:10px;
+							   color:#999999;
+}
+#content form .div1 .div2 .change_img{position:absolute;
+	                                  left:450px;
+							          top:10px;
+									  color:#999999;
+}
+#content form .div1 .div2 .number_img{position:absolute;
+	                                  left:290px;
+									  top:4px;
+}
+#content form .div1 .div2 .phone_number{position:absolute;
+	                                    padding:5px;
+	                                    left:290px;
+										top:7px;
+}
+#content form .div1 .div3 {position:absolute;
+	                       left:150px;
+}
+#content form .div1 .div3 a{text-decoration:none;}
+#content form .div1 .login {position:absolute;
+	                        left:150px;
+							width:300px;
+							height:40px;
+							background:#e33d3f;
+							color:white;
+							border-radius:10px;
+							outline:none;
+							font-size:25px;
+}

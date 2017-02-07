@@ -1,0 +1,87 @@
+body{min-width:815px}
+.header{float:right;
+		margin:25px 10px 0 0;
+		font-size:14px;
+		font-weight:700;
+}
+.header .nav li{float:left;
+				margin-left:20px;
+}
+.header .nav li a{color:#000;
+				  text-decoration:underline;
+}
+.header .nav li a:hover{color:blue;}
+.header .nav .weight{font-weight:100;}
+.header .nav .set{position:relative;}
+.header .upArrow{width:0;
+				 height:0;
+				 border-left:5px solid transparent;
+				 border-right:5px solid transparent;
+				 border-bottom:5px solid #CCC;
+				 position:absolute;
+				 left:8px;
+				 top:26px;
+				 display:none;
+}
+.header .nav  .set ul{position:absolute;
+					  width:80px;
+					  right:-29px;
+					  top:15px;
+					  margin-top:15px;
+					  border:1px solid #CCC;
+					  display:none;
+}
+.header .nav  .set ul li{margin:0;}
+.header .nav  .set ul li a{display:block;
+		  				   width:80px;
+						   height:25px;
+						   font-weight:100;
+						   text-align:center;
+						   text-decoration:none;
+}
+.header .nav  .set ul li a:hover{background:#3385FF;
+								 color:#fff;
+}
+.content{width:644px;
+		 margin:0 auto;
+		 padding-top:250px;
+		 background:url(../images/baidulogo.png) no-repeat center 150px;
+}
+.content input{display:inline-block;
+			   width:535px;
+			   height:35px;
+}
+.content .serchBtn{display:inline-block;
+				  width:105px;
+				  height:39px;
+				  background:#3385FF;
+				  color:#fff;
+				  text-align:center;
+				  line-height:39px;
+				  cursor:pointer;
+}
+.footer{width:620px;
+	    height:60px;
+		margin:280px auto 0 auto;
+}
+.footer .weima{display:block;
+			   float:left;
+			   width:60px;
+			   height:60px;
+			   background:url(../images/2weima.png) no-repeat;
+}
+.footer .weimaDes{display:block;
+				  float:left;
+				  padding:8px 34px 0px 10px;
+				  width:50px;
+				  height:52px;
+}
+.footer p a{color:#000;
+			text-decoration:underline;
+}
+.footer .setHome{padding-top:8px;}
+.footer .setHome a{display:inline-block;
+				   margin-right:20px;
+}
+.footer .copyRight{color:#666;}
+.footer .copyRight a{color:#666;}

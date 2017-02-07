@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=gbk">
+	
+		<title>Lesson4</title>
+		<link rel="stylesheet" href="../css/lesson4.css" type="text/css" media="screen" charset="utf-8">
+	</head>
+	<body>
+		<div id="box">
+			<ul>
+				<li><img src="../images/lesson4/big1.jpg" width="300px" height="188px" /></li>
+				<li><img src="../images/lesson4/big2.jpg" width="300px" height="188px" /></li>
+				<li><img src="../images/lesson4/big3.jpg" width="300px" height="188px" /></li>
+				<li><img src="../images/lesson4/big4.jpg" width="300px" height="188px" /></li>
+				<li><img src="../images/lesson4/big5.jpg" width="300px" height="188px" /></li>
+				<li><img src="../images/lesson4/big6.jpg" width="300px" height="188px" /></li>
+				<li><img src="../images/lesson4/big7.jpg" width="300px" height="188px" /></li>
+				<li><img src="../images/lesson4/big8.jpg" width="300px" height="188px" /></li>
+				<li><img src="../images/lesson4/big9.jpg" width="300px" height="188px" /></li>
+			</ul>
+		</div>
+		<div id="lesson4">
+			<h1 id="title">HTML高级标签</h1>
+			<div id="knowledge">
+				<div id="knowledge1">
+					<p>1、ul无序列表</p>
+					<p>ul列表是用的比较频繁的，用法为&ltul&gt&ltli&gt&lt/li&gt&lt/ul&gt,其中的li为列表项可为多个。例如：</p>
+					<ul style="list-style:disc">
+						<li>第一项</li>
+						<li>第二项</li>
+						<li>第三项</li>
+						<li>第四项</li>
+					</ul>
+					<p>以上的ul列表前面的符号为默认的，可通过样式更改list-style:none。一般情况下要去掉前面的符号，当然也能换成图片,例如下面的例子：</p>
+					<span style="color:red;">注意：list-style:url(图片存放的地址),url()里不加双引号，不要和src相混淆。</span>
+					<ul id="li_bg" >
+						<li>第一项</li>
+						<li>第二项</li>
+						<li>第三项</li>
+						<li>第四项</li>
+					</ul>
+					<p>ul标签也可以嵌套使用，例如：</p>
+					<ul id="li_bg" >
+						<li>第一项
+						<ul><ul style="list-style:disc">
+						<li>第一项</li>
+						<li>第二项</li>
+						<li>第三项</li>
+						<li>第四项</li>
+					</ul>
+						</ul>
+						</li>
+						<li>第二项</li>
+						<li>第三项</li>
+						<li>第四项</li>
+					</ul>
+				</div>
+				<div id="konwledge2">
+					<p>2、ol有序列表</p>
+					<p>ol有序列表和ul无序列表是一样的，只不过列表项前面的标志为有序的，例如：</p>
+					<ol>
+						<li>第一项
+							<ol>
+								<li>第一项</li>
+								<li>第二项</li>
+								<li>第三项</li>
+								<li>第四项</li>
+							</ol>
+						</li>
+						<li>第二项</li>
+						<li>第三项</li>
+						<li>第四项</li>
+					</ol>
+				</div>
+				<div id="knowledge3">
+					<p>dl自定义列表,这个在电商网站用作商品导航。</p>
+					<dl>
+						<dt>手机</dt>
+						<dd>苹果</dd>
+						<dd>华为</dd>
+						<dd>三星</dd>
+					</dl>
+				</div>
+				<div id="knoeledge4">
+					<p>4、table标签，例子：</p>
+					<p>table为表格标签，可以制作表格，例如：</p>
+					<table border="1">
+						<tr>
+							<th>学号</th>
+							<th>姓名</th>
+							<th>年龄</th>
+						</tr>
+						<tr>
+							<th>001</th>
+							<th>张三</th>
+							<th>20</th>
+						</tr>
+						<tr>
+							<th>002</th>
+							<th>李四</th>
+							<th>24</th>
+						</tr>
+						<tr>
+							<th>003</th>
+							<th>王五</th>
+							<th>30</th>
+						</tr>
+					</table>
+					<p>table的用法：&lttable&gt&lttr&gt&ltth&gt&lt/th&gt&lt/tr&gt&lt/table&gt</p>
+					<p>其中table为定义一个表格；tr为行数，有几个tr就有几行；th为列数，有几个th就有几列。</p>
+				</div>
+				<div id="knowledge5">
+					<p>5、css雪碧图,也叫CSS Sprite。是用背景图片的定位方式，将融合在一起的图标通过找到。</p>
+					<p>这样的好处是将多张小图标合成在一张图片里，而不必将多个小图标分别存储。</p>
+					<p>css样式的写法为background:url() no-repeat -x -y。x和y为图标左上角的坐标。<span style="color:red;">注意x和y值前面要加符号“-”</span></p>
+					<div class="icon"></div>
+					<div class="icon1"></div>
+					<img src="../images/lesson4/sprite.png" />
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

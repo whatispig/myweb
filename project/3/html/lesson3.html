@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=gb2312">
+	    <link rel="stylesheet" href="..//css/lesson3.css" type="text/css" media="screen" charset="utf-8">
+		<title>Lesson3</title>
+		
+	</head>
+	<body>
+		<div id="header">
+			<span class="title"><b>HTML基础标签</b></span>
+		</div>
+		<div id="content">
+			<div class="knowledge">
+				<p>1、标题(h1-h6),语法：&lth1&gt&lt/h1&gt,示例：</p>
+				<h1>这是h1。</h1>
+				<h2>这是h2。</h2>
+				<h3>这是h3。</h3>
+				<h4>这是h4。</h4>
+				<h5>这是h5。</h5>
+				<h6>这是h6。</h6>
+			</div>
+			<div class="knowledge">
+				<p>2、段落&ltp&gt标签,语法：&ltp&gt&lt/p&gt,示例：</p>
+				<p>这是一个段落。</p>
+			</div>
+			<div class="knowledge">
+				<p>3、&ltstrong&gt标签，&ltb&gt标签，&lti&gt标签。</p>
+				<strong>这是strong标签,strong标签通常起加强语气的作用，文字会被加粗显示。</strong> </br>
+				<b>这是b标签，b标签也是加强语气，文字会加粗显示。</b> </br>
+				<i>这是i标签，标签也能加强语气，只不过是斜体的方式显示。</i> </br>
+				<p>以上三个标签都是双标签。</p>
+			</div>
+			<div class="knowledge">
+				<p>4、超链接和锚标记。</p>
+				<a href="#" style="text-decoration:none">这是超链接a标签，用法为a标签中的href="这里写链接地址"。其中的target属性为在哪儿显示超链接的内容，
+					target="<b style="color:red">_block</b>"为在新窗口打开。
+				</a>
+				<p>以上的a标签的下画线是去掉的，在css样式中设置text-decoration:none。</p>
+				<p>锚标记也是使用a标签，请看以下例子：</p>
+				<a id="a1" ><span style="color:red">锚标记定位在这里</span>,通过<b>id="锚名称"</b>，来指示需要定位的地方。id定位为HTML5中的标准，也可以用name。</a>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				<a href="#a1">锚标记，点我。通过<b>href="#锚名称"</b>,来定位到地方。</a>
+			</div>
+			<div class="knowledge">
+				<p>5、&ltimg&gt标签</p>
+				<p>img标签里的<span style="color:red">src="这里为图片存放的地址",路径一定要写对，路径有相对路径和绝对路径之分。</span></p>
+				<p>img标签有width，height，alt属性，width和height可定义图片的宽高，alt为图片加载失败时用于替换的文本。</p>
+				<img src="../images/lesson3/img1.jpg" />
+			</div>
+			<div class="knowledge">
+				<p>6、相对路径和绝对路径。</p>
+				<p>相对路径是在同一文件夹中，是同一级的关系。写路径是可直接写要找的文件的名字。</p>
+				<p>绝对路径是没有在同一文件夹中，路径在写时要加..返回上一级目录中寻找。</p>
+			</div>
+			<div class="knowledge">
+				<p>7、内框架iframe。</p>
+				<p>通常内框架iframe和a标签配合使用。</p>
+				<p>a标签的target="目标iframe的name值",a标签的target的值要和iframe的name值要一致。</p>
+				<a href="../index.html" target="iframe1">指向内框架,点我</a>
+				<iframe name="iframe1"></iframe>
+			</div>
+			<div class="knowledge">
+				<p>8、&ltpre&gt标签</p>
+				<p>pre标签为预处理的意思,通常用于显示计算机代码。这种时候有空格就会显示，不会合并。例如：</p>
+				<pre>if(){
+				
+				}else{
+				}
+				</pre>
+			</div>
+			<div class="knowledge">
+				<p>9、&ltdiv&gt标签和&ltspan&gt标签。</p>
+				<p>div标签是用得最多的，通常用于结构和布局。</p>
+				<div class="box" style="width:200px;height:200px;background-color:green;">
+					这是一个div。
+					<div class="box1" style="width:100px;height:100px;background-color:blue;">
+						这也是一个div。这两个div是嵌套在一起的。
+					</div>
+				</div>
+				<p>span标签为行内元素，通常起强调作用,例如：</p>
+				<p>这是一个p标签，<span style="font-size:20px;color:red;">这是一个span标签,是在p标签里面的。</span></p>
+			</div>
+		</div>
+	</body>
+</html>
